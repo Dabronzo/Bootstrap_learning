@@ -1,3 +1,74 @@
 body{
     font-family: 'Roboto', sans-serif;
 }
+
+.alert-container{}
+
+.callout-container{
+    height: 100vh;
+    background: url("../images/landing_hero.jpg") no-repeat bottom right fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+}
+
+.quotes-container{}
+
+.features-container{}
+
+.table-container{}
+
+/*Jumbotron*/
+
+.jumbotron{
+    background-color: transparent;
+}
+
+.jumbotron-header{
+    color: white;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.jumbotron small {
+    color: white;
+    letter-spacing: 0.4mm;
+}
+
+.lead{
+    font-size: 1.25rem;
+    color: #afccec;
+    font-weight: 300;
+    letter-spacing: 0.2mm;
+}
+
+/* Overlayers */
+
+.overlay-opaque{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.45);
+}
+
+/* Buttons */
+
+.btn--cta{
+    color: white;
+    border-radius: 23px;
+    width: 160px;
+}
+
+.btn--red{
+    color: white;
+    background-color: rgb(129, 56, 56);
+}

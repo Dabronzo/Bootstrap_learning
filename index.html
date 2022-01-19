@@ -47,7 +47,7 @@
             <a href="/login">Sign-in/Sign-up</a>
         </div>
     </nav>
-    <article class="container mt-3">
+    <div class="container alert-container">
         <div class="row">
             <div class="col-12">
                 <div class="alert alert-warning d-none d-sm-block">
@@ -55,22 +55,24 @@
                 </div>
             </div>
         </div>
+    </div>
+    <div class="container-fluid callout-container">
         <!-- Callout -->
+        <div class="overlay-opaque">&nbsp;</div>
         <div class="row">
             <div class="col-12">
                 <section class="callout jumbotron text-center">
-                    <h1>The finest whiskeys delivered to your doorstep.</h1>
+                    <h1 class="jumbotron-header">The finest whiskeys delivered to your doorstep.</h1>
                     <p class="lead">Sign up today to start receiving the world's best whiskeys every month. <s class="d-none d-sm-inline">$19.99</s>
                         <span class="d-inline d-sm-none"><br></span>
                         <strong><mark>First one is free!</mark></strong></p>
-                    <button class="btn btn-success btn-lg" data-toggle="modal" data-target="#signUpModal">Sign Up</button>
+                    <button class="btn btn--cta btn--red btn-lg" data-toggle="modal" data-target="#signUpModal">Sign Up</button>
                     <p class="text-muted"><small>You must be over 18 to sign up. Please drink responsibly!</small></p>
                 </section>
             </div>
         </div>
-        <!-- /.callout -->
-        <hr>
-
+    </div>
+    <div class="container quotes-container">
         <!-- Quotes -->
         <section class="quotes">
             <div class="row">
@@ -106,10 +108,10 @@
                     </div>
                 </div>
             </div>
+            <!-- /.quotes -->
         </section>
-        <!-- /.quotes -->
-        <hr>
-
+    </div>
+    <div class="container features-container">
         <!-- Features -->
         <section class="features">
             <div class="row">
@@ -142,6 +144,8 @@
             </div>
         </section>
         <!-- /.features -->
+    </div>
+    <div class="container table-container">
         <!-- Tables-->
         <section class="tables">
             <table class="table">
@@ -180,9 +184,9 @@
                 </div>
             </table>
         </section>
-        <p><a href="grid.html">Go to Grid Sys</a></p>
-        <p><a href="test.html">Test Page</a></p>
-    </article>
+    </div>
+    <p><a href="grid.html">Go to Grid Sys</a></p>
+    <p><a href="test.html">Test Page</a></p>
 
     <div class="modal" tabindex="-1" role="dialog" id="signUpModal">
         <div class="modal-dialog" role="document">
